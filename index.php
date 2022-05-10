@@ -1,4 +1,11 @@
-<?php include("components.php") ?>
+<?php
+    include("components.php");
+    include("db.php");
+
+    $db = $GLOBALS["db"];
+
+    $progetti = $db->query("SELECT * FROM progetti");
+?>
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -25,7 +32,7 @@
     <div class="container">
         <!--Section: Content-->
         <section class="text-center">
-            <h4 class="my-5"><strong>Ultimi progetti</strong></h4>
+            <h4 class="my-5"><strong>Ultimi progetti <?php print_r($progetti) ?></strong></h4>
 
             <div class="row">
                 <div class="col-lg-4 col-md-12 mb-4">
@@ -69,7 +76,7 @@
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="img/php.png" class="img-fluid" width="300vw" alt=""/>
+                            <img src="img/php.png" class="img-fluid" width="600" alt=""/>
                             <a href="">
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                             </a>
