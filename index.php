@@ -32,7 +32,7 @@
                     <div class="card">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="img/online-payment.svg" class="img-fluid" alt=""/>
-                            <a href="services">
+                            <a>
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                             </a>
                         </div>
@@ -42,7 +42,7 @@
                                 Some quick example text to build on the card title and make up the bulk of the
                                 card's content.
                             </p>
-                            <a href="" class="btn btn-primary">Vai</a>
+                            <a href="services" class="btn btn-primary">Vai</a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                                 Some quick example text to build on the card title and make up the bulk of the
                                 card's content.
                             </p>
-                            <a href="php" class="btn btn-primary">Read</a>
+                            <a href="java" class="btn btn-primary">Vai</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                                 Some quick example text to build on the card title and make up the bulk of the
                                 card's content.
                             </p>
-                            <a href="" class="btn btn-primary">Read</a>
+                            <a href="php" class="btn btn-primary">Vai</a>
                         </div>
                     </div>
                 </div>
