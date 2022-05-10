@@ -38,7 +38,7 @@ $navbar = '<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top m
           <ul class="navbar-nav d-flex flex-row">
             <!-- Icons -->
             <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" rel="nofollow" target="_blank">
+              <a class="nav-link" rel="nofollow" target="_blank" href="https://github.com/DennisPirotta">
                 <i class="fab fa-github"></i>
               </a>
             </li>
