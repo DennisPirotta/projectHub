@@ -60,7 +60,7 @@ $res = $res->fetch_all();
                 }
                 ?>
 
-
+<!--
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
@@ -100,6 +100,7 @@ $res = $res->fetch_all();
                 </div>
             </div>
         </section>
+        -->
         <!--Section: Content-->
 
         <!-- Pagination -->
