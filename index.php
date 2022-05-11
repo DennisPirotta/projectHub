@@ -42,7 +42,7 @@ $res = $res->fetch_all();
                     <div class="col-lg-4 col-md-12 mb-4">
                     <div class="card" id="project-'.$row[0].'">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="img/'.$row[1].'" class="img-fluid" alt="" height="250"/>
+                            <img src="img/'.$row[1].'" class="img-fluid" alt="" height="250px"/>
                             <a>
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                             </a>
