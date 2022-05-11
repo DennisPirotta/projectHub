@@ -1,6 +1,10 @@
 <?php
 include("components.php");
 include("db.php");
+
+$db = $GLOBALS["db"];
+
+$res = $db->query("SELECT * FROM progetti");
 ?>
 <!DOCTYPE html>
 <html lang="it">
@@ -28,7 +32,7 @@ include("db.php");
     <div class="container">
         <!--Section: Content-->
         <section class="text-center">
-            <h4 class="my-5"><strong>Ultimi progetti <?=$db?></strong></h4>
+            <h4 class="my-5"><strong>Ultimi progetti <?=$res?></strong></h4>
 
             <div class="row">
                 <div class="col-lg-4 col-md-12 mb-4">
