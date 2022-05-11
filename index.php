@@ -6,7 +6,7 @@ include("db.php");
 
 $db = $GLOBALS["db"];
 
-print_r($db);
+print_r("<script>console.log(".$db.")</script>");
 ?>
 <!DOCTYPE html>
 <html lang="it">
