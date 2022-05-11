@@ -1,10 +1,6 @@
 <?php
-
-    include("components.php");
-
+include("components.php");
 include("db.php");
-
-$db = $GLOBALS["db"];
 ?>
 <!DOCTYPE html>
 <html lang="it">

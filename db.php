@@ -9,7 +9,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-echo "connessione avvenuta correttamente";
+echo '<script>console.log("connessione avvenuta correttamente")';
 
 $GLOBALS["db"] = $conn;
 
