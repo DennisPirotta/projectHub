@@ -1,9 +1,9 @@
 <?php
 
     include("components.php");
-/*
-include("db.php");
 
+include("db.php");
+/*
 $db = $GLOBALS["db"];
 
 $progetti = $db->query("SELECT * FROM progetti");
