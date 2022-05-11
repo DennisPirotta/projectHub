@@ -1,11 +1,12 @@
 <?php
-/*
+
     include("components.php");
-    include("db.php");
+/*
+include("db.php");
 
-    $db = $GLOBALS["db"];
+$db = $GLOBALS["db"];
 
-    $progetti = $db->query("SELECT * FROM progetti");
+$progetti = $db->query("SELECT * FROM progetti");
 */
 ?>
 <!DOCTYPE html>
