@@ -5,8 +5,6 @@
 include("db.php");
 
 $db = $GLOBALS["db"];
-
-print_r("<script>console.log(".$db.")</script>");
 ?>
 <!DOCTYPE html>
 <html lang="it">
@@ -34,7 +32,7 @@ print_r("<script>console.log(".$db.")</script>");
     <div class="container">
         <!--Section: Content-->
         <section class="text-center">
-            <h4 class="my-5"><strong>Ultimi progetti</strong></h4>
+            <h4 class="my-5"><strong>Ultimi progetti <?=$db?></strong></h4>
 
             <div class="row">
                 <div class="col-lg-4 col-md-12 mb-4">
