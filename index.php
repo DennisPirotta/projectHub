@@ -5,7 +5,7 @@ include("db.php");
 $db = $GLOBALS["db"];
 
 $res = $db->query("SELECT * FROM progetti");
-$res->fetch_all();
+$res = $res->fetch_all();
 ?>
 <!DOCTYPE html>
 <html lang="it">
