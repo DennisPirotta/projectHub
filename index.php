@@ -33,27 +33,33 @@ $res = $res->fetch_all();
     <div class="container">
         <!--Section: Content-->
         <section class="text-center">
-            <h4 class="my-5"><strong>Ultimi progetti <?php print_r($res)?></strong></h4>
+            <h4 class="my-5"><strong>Ultimi progetti</strong></h4>
 
             <div class="row">
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
+                <?php
+                foreach ($res as $row){
+                    echo '
+                    <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card" id="project-'.$row[0].'">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="img/online-payment.svg" class="img-fluid" alt=""/>
+                            <img src="img/'.$row[1].'" class="img-fluid" alt=""/>
                             <a>
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                             </a>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Web Services</h5>
+                            <h5 class="card-title">'.$row[2].'</h5>
                             <p class="card-text">
-                                Some quick example text to build on the card title and make up the bulk of the
-                                card's content.
+                                '.$row[3].'
                             </p>
                             <a href="services" class="btn btn-primary">Vai</a>
                         </div>
                     </div>
                 </div>
+                    ';
+                }
+                ?>
+
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card">
