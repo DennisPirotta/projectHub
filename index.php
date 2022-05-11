@@ -3,11 +3,10 @@
     include("components.php");
 
 include("db.php");
-/*
+
 $db = $GLOBALS["db"];
 
-$progetti = $db->query("SELECT * FROM progetti");
-*/
+print_r($db);
 ?>
 <!DOCTYPE html>
 <html lang="it">
