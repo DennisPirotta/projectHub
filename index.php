@@ -138,7 +138,8 @@ $res = $res->fetch_all();
     }
 
     .card:hover{
-        transform: scale(1.3);
+        transform: scale(1.1);
+        transition-duration: 0.3s;
     }
 </style>
 </body>
