@@ -48,59 +48,17 @@ $res = $res->fetch_all();
                             </a>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">'.$row[2].'</h5>
+                            <h5 class="card-title">'.$row[4].'</h5>
                             <p class="card-text">
                                 '.$row[3].'
                             </p>
-                            <a href="services" class="btn btn-primary">Vai</a>
+                            <a href="'.$row[2].'" class="btn btn-primary">Vai</a>
                         </div>
                     </div>
                 </div>
                     ';
                 }
                 ?>
-
-<!--
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="img/java-4-logo-svgrepo-com.svg" class="img-fluid" width="300vw" alt=""/>
-                            <a href="java">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Java</h5>
-                            <p class="card-text">
-                                Some quick example text to build on the card title and make up the bulk of the
-                                card's content.
-                            </p>
-                            <a href="java" class="btn btn-primary">Vai</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="img/php.png" class="img-fluid" width="600" alt=""/>
-                            <a href="">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Php</h5>
-                            <p class="card-text">
-                                Some quick example text to build on the card title and make up the bulk of the
-                                card's content.
-                            </p>
-                            <a href="php" class="btn btn-primary">Vai</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
         <!--Section: Content-->
 
         <!-- Pagination -->
