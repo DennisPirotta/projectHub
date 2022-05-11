@@ -136,6 +136,10 @@ $res = $res->fetch_all();
             margin-top: 45px;
         }
     }
+
+    .card:hover{
+        transform: scale(1.3);
+    }
 </style>
 </body>
 </html>
