@@ -10,4 +10,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$conn->query("SELECT * FROM progetti");
+$res = $conn->query("SELECT * FROM progetti");
+
+print_r($res);
