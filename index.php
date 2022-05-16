@@ -38,6 +38,7 @@ $res = $res->fetch_all();
 
             <div class="row">
                 <?php
+                /*
                 foreach ($res as $row){
                     echo '
                     <div class="col-lg-4 col-md-12 mb-4">
@@ -59,6 +60,7 @@ $res = $res->fetch_all();
                 </div>
                     ';
                 }
+                */
                 ?>
         <!--Section: Content-->
 
