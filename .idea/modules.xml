@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../gestionale/.idea/gestionale.iml" filepath="$PROJECT_DIR$/../gestionale/.idea/gestionale.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/projectHub.iml" filepath="$PROJECT_DIR$/.idea/projectHub.iml" />
     </modules>
   </component>

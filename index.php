@@ -1,11 +1,12 @@
 <?php
 include("components.php");
+/*
 include("db.php");
-
 $db = $GLOBALS["db"];
 
 $res = $db->query("SELECT * FROM progetti");
 $res = $res->fetch_all();
+*/
 ?>
 <!DOCTYPE html>
 <html lang="it">
